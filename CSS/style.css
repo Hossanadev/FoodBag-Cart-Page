@@ -1,0 +1,230 @@
+* {
+    padding: 1px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.headArea {
+    padding-top: 2%;
+}
+
+.upText {
+    margin-left: 30px;
+    font-size: 30px
+}
+
+.upText span {
+    color: #ad4c4c;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    margin-right: 30px;
+    float: right;
+    margin-top: -15px;
+}
+
+.cart, .login, .signUp {
+    margin-right: 30px;
+}
+
+.cart:hover {
+    box-sizing: border-box;
+    border: 1px solid #ad4c4c;
+    border-width: 1px;
+    text-align: center;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    cursor: pointer;
+}
+
+.login:hover {
+    box-sizing: border-box;
+    border: 1px solid #ad4c4c;
+    border-width: 1px;
+    text-align: center;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    cursor: pointer;
+}
+
+.signUp:hover {
+    box-sizing: border-box;
+    border: 1px solid #ad4c4c;
+    border-width: 1px;
+    text-align: center;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    cursor: progress;
+}
+
+.signUp {
+    box-sizing: border-box;
+    border: 1px solid #ad4c4c;
+    padding: 9px;
+    margin-top: -9px;
+    border-radius: 5px;
+}
+
+.title {
+    text-align: center;
+    margin-top: 11%;
+}
+
+.foodbagTitle {
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.metaTag {
+    margin-top: 10px;
+    color: #888888;
+}
+
+.quest {
+    margin-top: 11%;
+    margin-left: 30px;
+}
+
+.questLabel {
+    font-weight: 800;
+}
+
+.selectAdd {
+    margin-top: 10px;
+}
+
+select {
+    color: #ad4c4c;
+}
+
+select .selectAdd {
+    color: #444444;
+}
+
+.quest select {
+    box-sizing: border-box;
+    border: 1px solid #888888;
+    width: 90%;
+    border-radius: 5px;
+    height: 35px;
+}
+
+.quest select:active {
+    border: 2px solid #888888;
+}
+
+.interest {
+    margin-top: 11%;
+    margin-left: 30px;
+}
+
+.interestLabel {
+    font-weight: 800;
+}
+
+.pictorial1 {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.pic1 {
+    box-sizing: border-box;
+    border: 1px solid #999999;
+    width: fit-content;
+    height: fit-content;
+    padding: 3%;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.ff1, .ff3, .ff5, .ff7 {
+    font-weight: 700;
+    color: #ad4c4c;
+    margin-top: 10px;
+    font-size: 20px;
+    background-color: #ffffff;
+}
+
+.ff2, .ff4, .ff6, .ff8 {
+    font-size: 16px;
+    color: #999999;
+    background-color: #ffffff;
+}
+
+.pic2, .pic3, .pic4 {
+    box-sizing: border-box;
+    border: 1px solid #999999;
+    width: fit-content;
+    height: fit-content;
+    padding: 3%;
+    background-color: #ffffff;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+
+.service {
+    margin-top: 11%;
+    margin-left: 30px;
+}
+
+.serviceTell {
+    font-weight: 800;
+}
+
+.pictorial2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.ff9, .ff11, .ff13 {
+    font-size: 21px;
+    color: #444444;
+    font-weight: 800;
+}
+
+.ff10, .ff12, .ff14 {
+    font-size: 19px;
+    color: #999999;
+    margin-top: 5px;
+}
+
+.pic6, .pic7 {
+    margin-left: 10%;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 11%;
+}
+
+.socials {
+    margin-top: 15px;
+}
+
+.footerCopyright {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.terms {
+    margin-left: 30px;
+}
+
+.copyright {
+    margin-left: 50%;
+}
+
+.favicon {
+    position: relative;
+    margin-left: 360px;
+}
